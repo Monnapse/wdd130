@@ -1,3 +1,11 @@
+:root {
+    --heading-background-color: #fo6;
+    --heading-text-color: #333;
+    --heading-font: 'Montserrat', Helvetica, sans-serif;
+    --padding: 1rem;
+    --border: 1px solid rgba(0,0,0,0.1);
+}
+
 nav {
     background-color: steelblue;
     padding: 10px;
@@ -8,7 +16,10 @@ nav a {
     padding: 20px;
 }
 h1 {
-    color: steelblue;
+    background-color: var(--heading-background-color);
+    color: var(--heading-text-color);
+    font-family: var(--heading-font);
+    padding: var(--padding);
 }
 img {
     width: 150px;
@@ -27,7 +38,7 @@ aside {
     width: 50rem;
     margin: 1rem;
     border: 5px solid rgb(30, 34, 35);
-    padding: 1rem;
+    padding: var(--padding);
     background-color: rgb(40, 45, 46);
     color: whitesmoke;
 }
