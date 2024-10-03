@@ -2,13 +2,13 @@
     --heading-background-color: #dcdcdc;
     --heading-text-color: #333;
     --heading-font: 'Kanit', sans-serif;
-    --text-font: 'Kanit', sans-serif;
+    --text-font: 'Rubik', sans-serif;
     --padding: 1rem;
     --border: 1px solid rgba(0,0,0,0.1);
     /* Color pallete https://coolors.co/palette/0a2463-3e92cc-fffaff-d8315b-1e1b18*/
     --primary-color: #FFFAFF;
     --secondary-color: #3E92CC;
-    --accent1-color: #1E1B18 ;
+    --accent1-color: #1E1B18;
     --accent2-color: #D8315B;
     --accent3-color: #0A2463;
 }
