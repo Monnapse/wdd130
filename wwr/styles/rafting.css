@@ -9,7 +9,9 @@
     --accent2-color: #D8315B;
     --accent3-color: #0A2463;
 }
-
+*{
+    font-family: var(--text-font);
+}
 body {
     margin: 0 auto;
     width: 90vw;
