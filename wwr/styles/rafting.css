@@ -19,13 +19,13 @@ body {
 }
 h1 {
     background-color: var(--heading-background-color);
-    color: var(--accent1-color);
+    color: var(--primary-color);
     font-family: var(--heading-font);
     padding: var(--padding);
 }
 h2 {
     background-color: var(--heading-background-color);
-    color: var(--accent1-color);
+    color: var(--primary-color);
     font-family: var(--heading-font);
     padding: var(--padding);
 }
@@ -41,6 +41,7 @@ a {
     display: block;
     width: 100%;
     height: auto;
+    border-radius: 10px
 }
 .hero h1,article {
     position: absolute;
@@ -62,12 +63,106 @@ a {
     left: 15%;
     top: 40%;
     padding: 1rem;
+    border-radius: 10px
 }
 .hero article img {
     width: 10rem;
     float: right;
 }
+
+
+header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns:  120px 1fr 2fr;
+    grid-column-gap: 100px;
+    align-items: center;
+    width: 90vw;
+}
+
+header img {
+    margin: 0 0.25rem 0 1rem;
+	width: 160px;
+	height: auto;
+}
+
+.navigation {
+    display: flex;
+    text-align: right;
+    float: right;
+    width: 1000px;
+    grid-row: 100px;
+}
+.navigation a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.history {
+    margin: 15px 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    color: var(--primary-color);
+}
+.history h2 {
+    margin: 0;
+}
+.history div {
+    display: flex;
+}
+.history img {
+    /*display: inline-block;*/
+    
+    width: 200px;
+    height: auto;
+
+    padding: 25px;
+}
+
+.adventures {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    color: var(--primary-color);
+}
+.adventures_figures {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.adventures_figures figure img{
+    height: 100px;
+    width: 100%;
+}
+
+footer {
+    margin-top: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    color: var(--primary-color);
+}
+footer p {
+    justify-self: center;
+    /*width: 100%;
+    text-align: center;*/
+    margin-left: auto;
+    
+}
 .sociallinks img {
     width: 25px;
     height: auto;
+}
+.sociallinks {
+    margin-left: auto;
 }
