@@ -91,7 +91,6 @@ header img {
     text-align: right;
     float: right;
     width: 1000px;
-    grid-row: 100px;
 }
 .navigation a {
     display: block;
