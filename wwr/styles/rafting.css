@@ -165,3 +165,45 @@ footer p {
 .sociallinks {
     margin-left: auto;
 }
+
+#map {
+    margin-left: -5vw;
+    width: 100vw;
+}
+
+.figures-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-figures {
+    position: relative;
+    float: right;
+}
+
+.contact-figures img {
+    width: 150px;
+    height: 100%;
+    object-fit: none;
+}
+
+.contact {
+    display: flex;
+    margin-top: 15px;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    color: var(--primary-color);
+    padding: 20px;
+    justify-content: space-between;
+    
+}
+
+.contact-info {
+    position: relative;
+    left: 10%;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: auto auto;
+    grid-template-rows: 10%;
+    text-align: center;
+}
