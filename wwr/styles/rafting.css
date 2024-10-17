@@ -237,6 +237,11 @@ footer p {
     height: 50px;
 }
 
+.form h1 {
+    width: 100%;
+    text-align: center;
+}
+
 form {
     color: var(--primary-color);
 }
