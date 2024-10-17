@@ -100,12 +100,9 @@ header img {
 
 .history {
     margin: 15px 0;
-    padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--secondary-color);
-    border-radius: 10px;
     color: var(--primary-color);
 }
 .history h2 {
@@ -127,8 +124,6 @@ header img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--secondary-color);
-    border-radius: 10px;
     color: var(--primary-color);
 }
 .adventures_figures {
@@ -142,13 +137,10 @@ header img {
 }
 
 footer {
-    margin-top: 15px;
-    padding: 20px;
+    
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: var(--secondary-color);
-    border-radius: 10px;
     color: var(--primary-color);
 }
 footer p {
@@ -179,31 +171,96 @@ footer p {
 .contact-figures {
     position: relative;
     float: right;
+    width: 100%;
 }
 
 .contact-figures img {
-    width: 150px;
+    width: 100%;
     height: 100%;
     object-fit: none;
 }
 
 .contact {
     display: flex;
-    margin-top: 15px;
-    background-color: var(--secondary-color);
-    border-radius: 10px;
     color: var(--primary-color);
-    padding: 20px;
     justify-content: space-between;
-    
+    text-align: center;
 }
-
+.contact-info-section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
 .contact-info {
     position: relative;
-    left: 10%;
+    left: 7%;
     display: grid;
     grid-gap: 50px;
     grid-template-columns: auto auto;
-    grid-template-rows: 10%;
+    grid-template-rows: 30%;
     text-align: center;
+    font-size: 1.2em;
+}
+
+.contact-info-section h1 {
+    font-size: 2.5em;
+}
+
+.contact-info h2 {
+    font-size: 1.8em;
+}
+
+.section {
+    padding: 20px;
+    margin-top: 15px;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+}
+
+.form-contact-info {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    gap: 10%;
+    
+}
+
+.form-contact-info label {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+.form-contact-info input {
+    width: 100%;
+    height: 50px;
+}
+
+form {
+    color: var(--primary-color);
+}
+form * {
+    border-radius: 10px;
+}
+form fieldset {
+    border: 0;
+}
+
+input {
+    border: 0;
+    text-indent: 20px;
+}
+
+textarea {
+    border: 0;
+    width: 100%;
+    resize: none;
+    text-indent: 20px;
+}
+
+.submit-btn {
+    width: 100%;
+    height: 60px;
+    border: 0;
 }

@@ -26,41 +26,66 @@
         </header>
         <main>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1505.6957468394028!2d-111.46134537277432!3d40.994803623189924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x875237c31d428baf%3A0x63b93c51c688e2d5!2sOld%20Hwy%2030%2C%20Utah!5e0!3m2!1sen!2sus!4v1729092068793!5m2!1sen!2sus" id="map" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <section class="contact">
-                <div class="contact-info">
-                    <h2 style="grid-column: 2;">Contact Us</h2>
-                    <div style="grid-column: 1;">
-                        <h3>Address</h3>
-                        <p>9999 Old Hwy 30</p>
-                    </div>
-                    <div style="grid-column: 3;">
-                        <h3>Phone Numbers</h3>
-                        <p>999-999-9999</p>
-                        <p>111-111-1111</p>
-                    </div>
-                    <div style="grid-row-start: 3;">
-                        <h3>Email</h3>
-                        <p>wwr@rafting.com</p>
+            <section class="contact section">
+                <div class="contact-info-section">
+                    <h1 style="grid-row: span 3;">Contact Us</h2>
+                    <div class="contact-info">
+                        <div>
+                            <h2>Address</h3>
+                            <p>9999 Old Hwy 30</p>
+                        </div>
+                        <div >
+                            <h2>Phone Numbers</h3>
+                            <p>999-999-9999</p>
+                            <p>111-111-1111</p>
+                        </div>
+                        <div>
+                            <h2>Email</h3>
+                            <p>wwr@rafting.com</p>
+                        </div>
                     </div>
                 </div>
 
                 <div class="figures-row contact-figures">
                     <figure>
                         <img src="images/rafting21.png" style="object-position: 30%;">
-                        <figcaption>e</figcaption>
+                        <figcaption>Happy Employee</figcaption>
                     </figure>
                     <figure>
                         <img src="images/rafting59.jpg">
-                        <figcaption>e</figcaption>
+                        <figcaption>Happy Employee</figcaption>
                     </figure>
                     <figure>
                         <img src="images/rafting17.jpg" style="object-position: 30%;">
-                        <figcaption>e</figcaption>
+                        <figcaption>Happy Employee</figcaption>
                     </figure>
                 </div>
             </section>
+            <section class="form section">
+                <h1>Get In Touch</h1>
+                <form>
+                    <fieldset class="form-contact-info">
+                        <label for="fullname">Name<input type="text" id="fullname" name="fullname" placeholder="Your Name"> </label>
+                        <label for="useremail">Email<input type="email" id="useremail" name="useremail" placeholder="Your Email"></label>
+                    </fieldset>
+                    <fieldset>
+                        <p>Message Purpose</p>
+                        <input type="radio" id="general_inquiry" name="msg_purpose" value="general_inquiry"><label for="general_inquiry">General Inquiry</label><br>
+                        <input type="radio" id="reservation_question" name="msg_purpose" value="reservation_question"><label for="reservation_question">Reservation Question</label><br>
+                        <input type="radio" id="website_suggestion" name="msg_purpose" value="website_suggestion"><label for="website_suggestion">Website Suggestion</label>
+                    </fieldset>
+                    <fieldset>
+                        <p>Message</p>
+                        <textarea id="messagee" name="messagee" rows="10" placeholder="Write your message you have here"></textarea>
+                        <br>
+                        <input type="checkbox" id="subscribe" name="subscribe" value="subscribe"> <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                    </fieldset>
+                    
+                    <button type="submit" class="submit-btn">Submit Poll</button>
+                </form>
+            </section>
         </main>
-        <footer>
+        <footer class="section">
             <p>© 2024, White Water Rafting, Mason Huber</p>
             <nav class="sociallinks">
                 <a href="https://facebook.com"><img src="images/facebook.svg" alt="Facebook"></a>
