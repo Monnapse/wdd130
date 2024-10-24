@@ -36,7 +36,9 @@ a {
 
 .hero {
     position: relative;
+    overflow: hidden;
 }
+
 .hero img {
     display: block;
     width: 100%;
@@ -268,4 +270,69 @@ textarea {
     width: 100%;
     height: 60px;
     border: 0;
+}
+.submit-btn:hover {
+    cursor: pointer;
+}
+.trips {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 25%;
+    text-align: center;
+    padding: 50px;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    margin: 10px;
+}
+.trips a {
+    display: block;
+    width: 100%;
+    height: 40px;
+}
+
+.btn {
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+    border-radius: 10px;
+}
+.btn p {
+    margin: auto;
+    padding: 10px;
+}
+
+.trips-hero img {
+    height: 30vh;
+    left: 0;
+    object-fit: cover;
+}
+.newsletter {
+    padding: 20px;
+}
+.newsletter {
+    padding: 20px 100px 50px;
+}
+.newsletter h1 {
+    text-align: center;
+}
+
+.home-figures  {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+}
+.home-figures figure {
+    width: 300px;
+    height: auto;
+    text-align: center;
+}
+
+.home-figures img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+figcaption {
+    color: var(--accent1-color);
 }
