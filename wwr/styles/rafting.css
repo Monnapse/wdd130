@@ -56,7 +56,7 @@ a {
     background-color: #1e1b1880;
     width: 100%;
     left: 0;
-    top: 10%;
+    top: 5%;
 }
 .hero article {
     color: var(--primary-color);
@@ -302,7 +302,6 @@ textarea {
 }
 
 .trips-hero img {
-    height: 30vh;
     left: 0;
     object-fit: cover;
 }
@@ -335,4 +334,69 @@ textarea {
 }
 figcaption {
     color: var(--accent1-color);
+}
+
+.secondary-hero-header {
+    position: absolute;
+    text-align: center;
+    top: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #1e1b1849;
+    color: var(--primary-color);
+}
+.secondary-hero-header div {
+    width: 35%;
+}
+
+.hero-cards {
+    position: absolute;
+    bottom: 10px;
+    padding: 15px;
+}
+.hero-cards h1 {
+    position: relative;
+}
+.cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    justify-items: center;
+}
+.card {
+    color: var(--primary-color);
+    background-color: var(--accent2-color);
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+}
+.card h2 {
+    text-align: center;
+}
+
+.table {
+    margin-top: 100px;
+    position: relative;
+    width: 100%;
+}
+.table h1 {
+    text-align: center;
+    color: var(--accent1-color);
+}
+.table table {
+    width: 100%;
+    height: 300px;
+}
+.table table, th, td {
+    border: 1px solid var(--accent1-color);
+    border-collapse: collapse;
+    background-color: #d6d6d6;
+    text-indent: 10px;
+}
+.table th {
+    text-align: left;
+    background-color: #6d6b69;
+    color: var(--primary-color);
+    font-weight: 400;
 }
