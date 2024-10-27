@@ -152,6 +152,11 @@ footer p {
     margin-left: auto;
     
 }
+footer a {
+    color: var(--accent2-color);
+    text-decoration: underline;
+    text-indent: 20px;
+}
 .sociallinks img {
     width: 25px;
     height: auto;
